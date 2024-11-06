@@ -1,0 +1,7 @@
+Origin: Test Repo
+Label: MyTestRepo
+Suite: noble
+Codename: noble
+Architectures: amd64
+Components: main
+Description: A test repository for Ubuntu Noble packages
