@@ -25049,27 +25049,6 @@ Description: Linux image base package
  images.
 Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 
-Package: linux-firmware
-Version: 20240318.git3b128b60-0ubuntu2.3
-Architecture: amd64
-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-Installed-Size: 481705
-Recommends: firmware-sof-signed
-Conflicts: atmel-firmware
-Breaks: amd64-microcode (<= 3.20220411.1ubuntu1), initramfs-tools (<< 0.142ubuntu8~), linux-firmware-raspi2 (<= 1.20190819-0ubuntu2), linux-firmware-snapdragon (<= 1.2-0ubuntu1)
-Replaces: atmel-firmware, linux-firmware-snapdragon (<= 1.2-0ubuntu1), linux-restricted-common
-Provides: atmel-firmware
-Priority: optional
-Section: misc
-Filename: pool/main/l/linux-firmware/linux-firmware_20240318.git3b128b60-0ubuntu2.3_amd64.deb
-Size: 483396298
-SHA256: 62e7bd38a066227f007b0ce5a7205f106b191b7487d2eec79de93443cef25b8c
-SHA1: a0402c67b713ad2cf1c9ae289378c794008e7424
-MD5sum: 64407ce388372d0bd509b9cf05d84c07
-Description: Firmware for Linux kernel drivers
- This package provides firmware used by Linux kernel drivers.
-Original-Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
-
 Package: linux-sound-base
 Source: alsa-driver
 Version: 1.0.25+dfsg-0ubuntu7
